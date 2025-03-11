@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;     
+    background-color: aliceblue;      
+}
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+header {
+    background-color: #2193d1; 
+    color: white; 
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div{
+    display:flex;
+}
+.titulo{
+    color: deepskyblue;
+}
+#texto{
+    text-align: justify; 
+}
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 10px 30px;
+}
+ul, ol {
+    margin: 10px auto;
+    display: inline-block;
+    text-align: left; 
+}
+table {
+    width: 80%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    background-color:white;
+}
+th {
+    background-color:rgb(73, 6, 154);
+    color: white;
+}
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+a:hover {
+    text-decoration: underline;
+}
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color:#007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+form button:hover {
+    background-color:#2193d1;
+}
